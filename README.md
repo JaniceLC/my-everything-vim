@@ -31,6 +31,12 @@ cp .tmux/.tmux.conf.local .
 tmux new -s meta
 ```
 
+## install git 
+```
+apt-get update
+apt-get install git
+```
+
 ## install Vim 8.2
 
 ```bash
