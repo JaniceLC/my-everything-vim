@@ -36,7 +36,10 @@ tmux new -s meta
 apt-get update
 apt-get install git
 ```
-
+## install make
+```
+apt-get install build-essential
+```
 ## install Vim 8.2
 
 ```bash
@@ -48,6 +51,14 @@ apt install vim
 ## install vim-plug
 ```bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+## codeserver
+```
+curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
+#Now to actually install:
+
+curl -fsSL https://code-server.dev/install.sh | sh
 ```
 
 ## (optional) install fzf
